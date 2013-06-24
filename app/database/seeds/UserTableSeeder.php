@@ -8,17 +8,17 @@ class UserTableSeeder extends Seeder {
 
         User::create(array(
             'email' => 'leighquince@quincewebdesign.com',
-            'password' => Hash::make('Sado6667')
+            'password' => Hash::make('Something1')
         ));
         
         User::create(array(
             'email' => 'fiona.robertson@riddlesdown.org',
-            'password' => Hash::make('Riddlesdown1')
+            'password' => Hash::make('Something1')
         ));
         
          User::create(array(
             'email' => 'nicholas.foney@riddlesdown.org',
-            'password' => Hash::make('Riddlesdown1')
+            'password' => Hash::make('Something1')
         ));
 
     }
