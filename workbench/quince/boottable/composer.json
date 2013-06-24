@@ -1,0 +1,23 @@
+{
+    "name": "quince/boottable",
+    "description": "A small package to auto generate a bootstrap styled table for displaying arrays/class lists in your view.",
+    "authors": [
+        {
+            "name": "Leigh Quince",
+            "email": "leighquince@quincewebdesign.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Quince\\Boottable": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
