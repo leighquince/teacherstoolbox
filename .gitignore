@@ -1,0 +1,22 @@
+#Laravel
+/bootstrap/compiled.php
+/vendor
+
+#Configuration
+/app/config/local
+/app/config/production
+/app/config/staging
+
+
+
+
+
+#app seeds
+/app/database/seeds/
+
+
+composer.phar
+composer.lock
+
+.DS_Store
+
